@@ -15,8 +15,10 @@ html, body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background: url("../img/cover.png") center no-repeat;
+    background-size: cover;
 }
-.profile_animated_background {
+.animated_background {
 	position: fixed;
 	min-width: 100%;
 	min-height: 120%;
@@ -24,14 +26,14 @@ html, body {
 	height: auto;
 	overflow: hidden;
 }
-.profile_animated_background > video {
+.animated_background > video {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 1920px;
 }
 
-.profile_animated_background > video {
+.animated_background > video {
 	width: 100%;
     
 }
@@ -50,7 +52,7 @@ html, body {
     box-sizing: content-box;
     background-color: rgba(0, 0, 0, .5);
     border-radius: 10px;
-    height: 1000px;
+    height: 900px;
 }
 .header{
     position: relative;
