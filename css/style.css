@@ -1,0 +1,76 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 500;
+    background-size: cover;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.profile_animated_background {
+	position: fixed;
+	min-width: 100%;
+	min-height: 120%;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+.profile_animated_background > video {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 1920px;
+}
+
+.profile_animated_background > video {
+	width: 100%;
+    
+}
+
+@media ( max-width: 1920px )
+{
+	.profile_animated_background > video {
+		width: 1920px;
+	}
+}
+
+.container{
+    max-width: 1046px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    height: 1000px;
+}
+.header{
+    position: relative;
+    color: #fff;
+}
+.headerContainer { 
+    
+    display: flex;
+}
+.headerLogo {
+}
+.headerMenu {
+    
+}
+.menu {
+}
+.menuList {
+    display: flex;
+}
+.menuItem {
+}
+.menuLink {
+}
